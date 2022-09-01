@@ -1,0 +1,84 @@
+h1{
+    text-align: center;
+    margin: 2px;
+    color: white;
+}
+body{
+    background: url('../image/bk.jpg')no-repeat center center/cover;
+}
+/* ____________________________________________________________________________________________________________________________________________________ */
+
+.sidebar nav {
+    padding: 60px;
+    margin: 0;
+
+}
+.cross {
+    margin-left: 223px;
+    filter: invert(1);
+}
+.equal{
+    filter: invert(1);
+}
+.sidebar {
+    width: 250px;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    opacity: 0.7;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 35px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+.sidebar nav li a:hover {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+    
+}
+/* _______________________________________________________________________________________________________________________________________ */
+.myForm{
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    margin: auto;
+    height: 396px;
+    padding: 13px 23px;
+}
+input,textarea{
+    margin: 13px 7px;
+    padding: 7px 9px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.btn{
+    margin: 1px 156px;
+    padding: auto;
+    background-color:rgb(142, 89, 247);
+    ;
+    border-radius: 10px;
+    padding: 3px 0px;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color:rgb(142, 89, 247);
+}
+#container{
+    min-height: 86vh;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    justify-content: center;
+}

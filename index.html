@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <style>
+       @media(max-width:766px)and (min-width:535px) {
+    .sidebar{
+        display: flex;
+        flex-direction: column;
+        margin-top: -161px;
+    }
+    .main .divpic img {
+        display: flex;
+        flex-direction: column;
+        margin-top: 490px;
+        margin-left: -215px;
+    }
+ }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="sidebar sidebar-go">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamer">
+                <img class="equal" src="../image/e.jpg" alt="no" width="25px">
+                <img class="cross" src="../image/c.jpg" alt="no" width="25px">
+            </div>
+            <div class="infcontainer">
+                <div class="divinfo">
+                    <div class="hello">Hi'm</div>
+                    <div class="name">Nikunj jain</div>
+                    <div class="about">Software Developer</div>
+                    <div class="Moreabout">I'm developer.I live in Rajasthan. i love travelling </div>
+                    <a href="../image/Resume.pdf" download="Resume.pdf" target="_blank"><button class="CV">Download CV</button></a>
+                </div>
+                <div class="divpic">
+                    <img src="../image/nikunj.jpg" alt="Nikunj Jain">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@200&family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(154, 150, 150);
+    width: 250px;
+    height: 100vh;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 60px;
+    margin: 0;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 35px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+}
+
+.sidebar nav li a:hover {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 10px;
+    color: green;
+
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* |----------------------------------------------------Lower Portion----------------------------------------------------------------------------- */
+.main {
+    /* background-color: yellow; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+/* |------------------------------------------------Inside Infoconatiner----------------------------------------------------------------------------------- */
+.infcontainer {
+    /* background-color: rgb(180, 146, 146); */
+    height: 80vh;
+    width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 50px;
+}
+
+.name {
+    font-size: 45px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.Moreabout {
+    font-size: 30px;
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    margin-top: 5px;
+}
+
+.CV {
+    margin: 0px;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(142, 89, 247);
+    color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.CV:hover {
+    background-color: white;
+    color: rgb(142, 89, 247);
+}
+
+.divpic img {
+    height: 469px;
+    width: 316px;
+    border-radius: 20px;
+
+}
+
+.sidebar-go {
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamer {
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+}
+
+.cross {
+    margin-left: 223px;
+    filter: invert(1);
+}
+.equal{
+    filter: invert(1);
+}
+
+/*|------------------------------------------------Inside Div----------------------------------------------------------------------------------- */
+@media(max-width:766px)and (min-width:100px) {
+
+    .main .divpic img {
+        display: flex;
+        flex-direction: column;
+        margin-top: 490px;
+        margin-left: -215px;
+    }
+}
+@media (max-width:766px) {
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        margin-top: -161px;
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+}
+@media screen  {
+    .devpic{
+        display: none;
+    }
+    
+}
